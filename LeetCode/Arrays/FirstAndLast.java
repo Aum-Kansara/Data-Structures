@@ -22,7 +22,7 @@ public class FirstAndLast{
             else
                 end=mid-1;
         }
-        if(nums[start]!=-1){
+        if(ans[0]!=-1){
             start=0;
             end=nums.length-1;
             // Check For Last Occurence
